@@ -1,0 +1,30 @@
+{
+  "name": "evented-async",
+  "version": "0.0.1",
+  "description": "Event-driven extensions to the Node.js async library",
+  "keywords": [ "async", "events" ],
+  "author": "Jeff Lee <jeffomatic@gmail.com>",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/jeffomatic/evented-async.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/jeffomatic/evented-async/issues"
+  },
+  "licenses": [
+    {
+      "type" : "MIT",
+      "url" : "http://github.com/jeffomatic/evented-async/raw/master/LICENSE"
+    }
+  ],
+  "main": "./js/lib/evented_async",
+  "dependencies": {
+    "async": "0.2.9",
+    "underscore": "1.5.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.8.2",
+    "sinon": "1.7.2"
+  }
+}
